@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="701.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project01.SchoolController">
+   <children>
+      <Label layoutX="132.0" layoutY="14.0" prefHeight="88.0" prefWidth="463.0" text="Welcome To School">
+         <font>
+            <Font name="Lucida Handwriting Italic" size="44.0" />
+         </font>
+      </Label>
+      <Separator layoutX="348.0" layoutY="113.0" orientation="VERTICAL" prefHeight="684.0" prefWidth="5.0">
+         <effect>
+            <ColorAdjust brightness="-1.0" contrast="-0.56" hue="1.0" saturation="-0.45" />
+         </effect>
+      </Separator>
+      <Label layoutX="17.0" layoutY="157.0" prefHeight="44.0" prefWidth="341.0" text="Which Subject do you want to  ">
+         <font>
+            <Font name="Bell MT" size="26.0" />
+         </font>
+      </Label>
+      <Button layoutX="65.0" layoutY="270.0" mnemonicParsing="false" onAction="#Click_Mathematics" text="Mathenmatics">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="65.0" layoutY="335.0" mnemonicParsing="false" onAction="#Click_English" text="English">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="67.0" layoutY="399.0" mnemonicParsing="false" onAction="#Click_Geography" text="Geography">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="65.0" layoutY="466.0" mnemonicParsing="false" onAction="#Click_History" text="History">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="27.0" layoutY="273.0" text="A .">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="335.0" />
+      <Label layoutX="27.0" layoutY="338.0" text="B .">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="402.0" text="C .">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="469.0" text="D .">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="372.0" layoutY="132.0" text="Your Points : ">
+         <font>
+            <Font name="Bell MT" size="27.0" />
+         </font>
+      </Label>
+      <TextField layoutX="525.0" layoutY="134.0" prefHeight="30.0" prefWidth="164.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="473.0" layoutY="215.0" prefHeight="86.0" prefWidth="134.0" text="Quiz..">
+         <font>
+            <Font name="Segoe Print" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="364.0" layoutY="338.0" text="Which subject do you want to ">
+         <font>
+            <Font name="Bell MT" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="368.0" layoutY="380.0" text="participate in quiz?">
+         <font>
+            <Font name="Bell MT" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="203.0" text="learn ?">
+         <font>
+            <Font name="Bell MT" size="26.0" />
+         </font>
+      </Label>
+      <Button layoutX="418.0" layoutY="444.0" mnemonicParsing="false" onAction="#Click_QMathematics" text="Mathenmatics">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="418.0" layoutY="509.0" mnemonicParsing="false" onAction="#Click_QEnglish" text="English">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="420.0" layoutY="573.0" mnemonicParsing="false" onAction="#Click_QGeography" text="Geography">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="418.0" layoutY="640.0" mnemonicParsing="false" onAction="#Click_QHistory" text="History">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="380.0" layoutY="447.0" text="A .">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="383.0" layoutY="509.0" />
+      <Label layoutX="380.0" layoutY="512.0" text="B .">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="380.0" layoutY="576.0" text="C .">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="380.0" layoutY="643.0" text="D .">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
